@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid red; */
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header_bar1 {
+  width: 100%;
+  background-color: #00142d;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.global {
+  border-right: 1px solid #fff;
+  height: 24px;
+  padding-right: 26px;
+  color: #fff;
+}
+
+.header_bar1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+  margin-left: 20px;
+}
+
+.login {
+  margin-right: 90px;
+}
+
+.header_bar2 {
+  height: 84px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  box-shadow: 0 0 12px rgb(36 50 66 / 20%);
+}
+
+.header_bar2 .logo {
+  width: 160px;
+  padding: 26px 0;
+  margin-left: 84px;
+}
+
+.header_bar2 img {
+  width: 160px;
+  height: 26.88px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  margin: 0 300px 0 70px;
+}
+
+.service_bar {
+  display: inline-block;
+  padding: 30px 0;
+  margin: 0 0.5em;
+  border: 0;
+  position: relative;
+}
+
+.header_button {
+  background-color: #0061ff;
+  height: 42px;
+  margin-top: 21px;
+  box-sizing: border-box;
+  padding: 8px 17px;
+  border-radius: 200px;
+}
+
+.header_button .free {
+  text-decoration: none;
+  color: #fff;
+  line-height: 27px;
+}
+
+.service_bar {
+  cursor: pointer;
+}
+
+.service_bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.service_bar a:hover {
+  color: #0061ff;
+}
+
+.menu {
+  height: 400px;
+  width: 600px;
+  background-color: aquamarine;
+  position: absolute;
+  top: 84px;
+  left: -245px;
+  border: #0061ff 1px solid;
+  display: none;
+}
+
+.serve-menu {
+  height: 400px;
+  width: 600px;
+  background-color: aquamarine;
+  position: absolute;
+  top: 84px;
+  left: -24px;
+  border: #0061ff 1px solid;
+  display: none;
+}
+
+.serve:hover .serve-menu {
+  display: block;
+}
+.cost:hover .cost-menu {
+  display: block;
+}
+.more:hover .more-menu {
+  display: block;
+}
+.other:hover .other-menu {
+  display: block;
+}
