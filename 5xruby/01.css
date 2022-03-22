@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  /* padding-left: 15px;
+    padding-right: 15px; */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: -15px;
+  margin-right: -15px; */
+}
+
+[class*="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  box-sizing: border-box;
+}
+
+.col-1 {
+  width: 8.333333%;
+}
+.col-2 {
+  width: 16.666666%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.333333%;
+}
+.col-5 {
+  width: 41.666666%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.333333%;
+}
+.col-8 {
+  width: 66.666666%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.333333%;
+}
+.col-11 {
+  width: 91.666666%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.title h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.title h1::after {
+  content: "";
+  background-color: red;
+  position: absolute;
+  height: 2px;
+  width: 2em;
+  bottom: 10px;
+  left: 0;
+}
+
+.title p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.lecturer {
+  background-color: antiquewhite;
+  border-radius: 2%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* border: blue 1px solid;   */
+}
+
+.lecturer .img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin: auto;
+  overflow: hidden;
+}
+
+.top {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #aaa;
+  padding-top: 20px;
+}
+
+.top .txt {
+  padding: 10px;
+}
+
+.introduce {
+  padding: 30px 20px;
+}
+.other .h3 {
+  position: relative;
+  font-size: 15px;
+}
+
+.other button {
+  font-size: 18px;
+  color: #f00;
+  border: #f00 1px solid;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .col-xl-1 {
+    width: 8.333333%;
+  }
+  .col-xl-2 {
+    width: 16.666666%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.333333%;
+  }
+  .col-xl-5 {
+    width: 41.666666%;
+  }
+  .col-xl-6 {
+    width: 46%;
+  }
+  .col-xl-7 {
+    width: 58.333333%;
+  }
+  .col-xl-8 {
+    width: 66.666666%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.333333%;
+  }
+  .col-xl-11 {
+    width: 91.666666%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
